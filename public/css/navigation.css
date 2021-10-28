@@ -1,0 +1,24 @@
+.nav {
+  background-color: purple;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav__ul {
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+}
+
+.nav__li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.nav__li a {
+  text-decoration: none;
+  color: white;
+}

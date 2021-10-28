@@ -1,0 +1,15 @@
+<%- include('includes/head') %>
+  </head>
+  <body>
+      <%- include('includes/navigation') %>
+      <div class='app'>
+        <h1>Thanks for Logging In</h1>
+        <% if (userList){ %>
+         
+         <% userList.forEach(x=>{%>
+          <p><%= x %></p>
+          <% }) %>
+          <% } %>
+      </div>
+    
+<%- include('includes/close')%>
